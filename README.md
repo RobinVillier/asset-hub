@@ -4,6 +4,8 @@ Asset Hub is a **Maya pipeline tool** designed to organize and manage production
 
 Asset Hub helps artists and technical directors maintain **consistent file organization, versioning, and asset structure** across multiple clients and projects.
 
+<img width="1778" height="1000" alt="ArtstationPost_001" src="https://github.com/user-attachments/assets/6cb58360-3f12-4573-a851-08834c976513" />
+
 ---
 
 ## Features
@@ -47,12 +49,12 @@ Configure:
 ## Project Structure
 
 
-AssetHub/
-├── config/ # Tool configuration and settings
-├── core/ # Core pipeline and asset management logic
-├── ui/ # Qt-based user interface
-├── wdigets/ # Qt-based custom widgets
-└── resources/ # Icons, stylesheets, and UI assets
+AssetHub/\n
+├── config/ # Tool configuration and settings\n
+├── core/ # Core pipeline and asset management logic\n
+├── ui/ # Qt-based user interface\n
+├── wdigets/ # Qt-based custom widgets\n
+└── resources/ # Icons, stylesheets, and UI assets\n
 
 
 ---
@@ -92,18 +94,18 @@ Files will automatically follow the correct naming and versioning conventions.
 
 Example File Hierarchy :
 
-ProjectRoot/
-└── Client
-    └── Project
-        └── Assets
-            └── AssetName
-                └── rig
-                    ├── AssetName_rig_v001.001.ma
-                    ├── AssetName_rig_v001.002.ma
-                    ├── AssetName_rig_v002_pub.ma
-                    ├── AssetName_rig_v002_001.ma
-                    ├── AssetName_rig_v002_002.ma
-                    └── AssetName_rig_v002_003.ma
+ProjectRoot/\n
+└── Client\n
+    └── Project\n
+        └── Assets\n
+            └── AssetName\n
+                └── rig\n
+                    ├── AssetName_rig_v001.001.ma\n
+                    ├── AssetName_rig_v001.002.ma\n
+                    ├── AssetName_rig_v002_pub.ma\n
+                    ├── AssetName_rig_v002_001.ma\n
+                    ├── AssetName_rig_v002_002.ma\n
+                    └── AssetName_rig_v002_003.ma\n
 
 ## Contacts
 For issues, questions, or contributions:
