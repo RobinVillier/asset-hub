@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from BetterFileExplorer.core import load
 
-APP_NAME = "BetterFileExplorer"
+APP_NAME = "Asset Hub"
 VERSION = "1.1"
 
 ROOT_DIR = Path(__file__).parent.parent

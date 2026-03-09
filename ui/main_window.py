@@ -22,7 +22,7 @@ class BetterFileExplorerUI(QtWidgets.QDialog):
         self.setWindowTitle(f"{settings.APP_NAME}  |  v{settings.VERSION}")
         self.setWindowFlags(QtCore.Qt.Window)
         self.setMinimumSize(0, 0)
-        self.resize(500, 650)
+        self.resize(550, 700)
         self.setWindowIcon(QtGui.QIcon(f"{settings.ROOT_DIR}/resources/icons/folder_black.png"))
 
         stylesheet = load.load_qss_with_fixed_urls(rf"{settings.ROOT_DIR}/resources/styles/style.qss")
