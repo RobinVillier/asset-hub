@@ -48,14 +48,14 @@ Configure:
 
 ## Project Structure
 
-
-AssetHub/\n
-├── config/ # Tool configuration and settings\n
-├── core/ # Core pipeline and asset management logic\n
-├── ui/ # Qt-based user interface\n
-├── wdigets/ # Qt-based custom widgets\n
-└── resources/ # Icons, stylesheets, and UI assets\n
-
+```
+AssetHub/
+├── config/ # Tool configuration and settings
+├── core/ # Core pipeline and asset management logic
+├── ui/ # Qt-based user interface
+├── wdigets/ # Qt-based custom widgets
+└── resources/ # Icons, stylesheets, and UI assets
+```
 
 ---
 
@@ -93,19 +93,20 @@ main.launch_app()
 Files will automatically follow the correct naming and versioning conventions.
 
 Example File Hierarchy :
-
-ProjectRoot/\n
-└── Client\n
-    └── Project\n
-        └── Assets\n
-            └── AssetName\n
-                └── rig\n
-                    ├── AssetName_rig_v001.001.ma\n
-                    ├── AssetName_rig_v001.002.ma\n
-                    ├── AssetName_rig_v002_pub.ma\n
-                    ├── AssetName_rig_v002_001.ma\n
-                    ├── AssetName_rig_v002_002.ma\n
-                    └── AssetName_rig_v002_003.ma\n
+```
+ProjectRoot
+└── Client
+    └── Project
+        └── Assets
+            └── AssetName
+                └── rig
+                    ├── AssetName_rig_v001.001.ma
+                    ├── AssetName_rig_v001.002.ma
+                    ├── AssetName_rig_v002_pub.ma
+                    ├── AssetName_rig_v002_001.ma
+                    ├── AssetName_rig_v002_002.ma
+                    └── AssetName_rig_v002_003.ma
+```
 
 ## Contacts
 For issues, questions, or contributions:
